@@ -1,0 +1,26 @@
+.sidebar-tile-layout{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 24px;
+    padding: 15px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.sidebar-tile-layout:hover{
+    background-color: #F2F2F2;
+}
+
+.sidebar-tile-icon{
+    color: #737791;
+}
+
+.sidebar-tile-title{
+    color: #737791;
+    /* 2xl/Semibold */
+    font-size: 16px;
+    font-family: Mulish;
+    font-weight: 600;
+}

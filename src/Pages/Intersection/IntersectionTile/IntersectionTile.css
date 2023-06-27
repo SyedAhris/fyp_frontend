@@ -1,0 +1,34 @@
+
+.intersection-tile-layout{
+    display: inline-flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.intersection-tile-id, .intersection-tile-live, .intersection-tile-edit{
+    text-align: center;
+    white-space: nowrap; /* Prevents text from wrapping */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 60px;
+    color: #444A6D;
+    font-size: 16px;
+    font-family: Mulish;
+    line-height: 16px;
+}
+
+.intersection-tile-live, .intersection-tile-edit{
+    cursor: pointer;
+}
+
+.intersection-tile-name, .intersection-tile-coordinates{
+    text-align: center;
+    white-space: nowrap; /* Prevents text from wrapping */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 150px;
+    color: #444A6D;
+    font-size: 16px;
+    font-family: Mulish;
+    line-height: 16px;
+}

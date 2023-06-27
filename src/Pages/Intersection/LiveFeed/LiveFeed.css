@@ -1,0 +1,61 @@
+.live-feed-heading{
+    color: #05004E;
+
+    /* xl/Semibold */
+    font-size: 20px;
+    font-family: Mulish;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+.vl {
+    width: 2.446px;
+    height: 35.291px;
+    flex-shrink: 0;
+    background: #BDC9D3;
+}
+
+.live-feed-stats{
+    display: inline-flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.live-feed-card{
+    display: inline-flex;
+    flex-direction: column;
+    width: fit-content;
+    border-radius: 20px;
+    border: 1px solid #F8F9FA;
+    background: #FFF;
+    box-shadow: 0px 4px 20px 0px rgba(238, 238, 238, 0.50);
+    padding: 20px;
+    gap: 20px
+}
+
+.live-feed-layout{
+    display: flex;
+    width: calc(100vw - 300px);
+    height: calc(100vh - 72px);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 31px;
+    flex-shrink: 0;
+}
+
+.live-feed-stream-1{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    border: 1px solid #F8F9FA;
+    background: #FFF;
+    box-shadow: 0px 4px 20px 0px rgba(238, 238, 238, 0.50);
+}
+
+.live-feed-img-row{
+    display: inline-flex;
+    align-items: center;
+    /*padding: 20px;*/
+}

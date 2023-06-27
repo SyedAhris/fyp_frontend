@@ -1,0 +1,48 @@
+.topbar-layout{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-shrink: 0;
+    padding: 10px;
+    width: calc(100vw - 320px);
+}
+.topbar-title{
+    color: #151D48;
+    /* 4xl/Semibold */
+    font-size: 30px;
+    font-family: Mulish;
+    font-weight: 600;
+    line-height: 140%;
+}
+.topbar-account{
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding: 5px;
+    border-radius: 10px;
+}
+.topbar-account:hover{
+    /*make background visible*/
+    background-color: #F2F2F2;
+}
+
+.topbar-user-text-name{
+    color: #151D48;
+    /* 2xl/Semibold */
+    font-size: 16px;
+    font-family: Mulish;
+    margin-right: 10px;
+}
+.topbar-user-text-admin{
+    color: #737791;
+    /* 2xl/Semibold */
+    font-size: 13px;
+    font-family: Mulish;
+    margin-right: 10px;
+}
+
+.fa-circle-user{
+    color: #151D48;
+}

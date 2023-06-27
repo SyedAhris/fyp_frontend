@@ -1,0 +1,28 @@
+.live-feed-tile-layout{
+    display: inline-flex;
+    align-items: center;
+    gap: 11px;
+    width: 200px;
+}
+
+.live-feed-tile-content{
+    display: flex;
+    width: fit-content;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1px;
+}
+
+.live-feed-tile-heading{
+    color: #96A5B8;
+    font-size: 16px;
+    font-family: Mulish;
+}
+
+.live-feed-tile-value{
+    color: #222B45;
+    font-size: 16px;
+    font-family: Mulish;
+    font-weight: 500;
+    line-height: 20px;
+}

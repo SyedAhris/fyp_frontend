@@ -1,0 +1,55 @@
+.intersection-layout{
+    display: flex;
+    width: calc(100vw - 300px);
+    height: calc(100vh - 72px);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 31px;
+    flex-shrink: 0;
+}
+
+.intersection-card{
+    width: fit-content;
+    border-radius: 20px;
+    border: 1px solid #F8F9FA;
+    background: #FFF;
+    box-shadow: 0px 4px 20px 0px rgba(238, 238, 238, 0.50);
+    padding: 20px;
+}
+
+.intersection-heading{
+    color: #05004E;
+
+    /* xl/Semibold */
+    font-size: 20px;
+    font-family: Mulish;
+    font-weight: 600;
+    line-height: 32px;
+}
+
+.intersection-headers{
+    display: inline-flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.intersection-table-id, .intersection-table-live{
+    text-align: center;
+    text-after-overflow: ellipsis;
+    width: 60px;
+    color: #96A5B8;
+    font-size: 13px;
+    font-family: Mulish;
+    line-height: 16px;
+}
+
+.intersection-table-name, .intersection-table-coordinates{
+    text-align: center;
+    text-after-overflow: ellipsis;
+    width: 150px;
+    color: #96A5B8;
+    font-size: 13px;
+    font-family: Mulish;
+    line-height: 16px;
+}

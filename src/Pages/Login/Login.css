@@ -1,0 +1,47 @@
+.login-layout {
+    display: flex;
+    height: 100vh;
+    gap: 15px;
+}
+
+.login-image {
+    flex: 0 0 auto;
+    height: 100vh;
+    max-height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.login-content-div {
+    flex: 1;
+    background-color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.login-heading {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 328px;
+}
+
+.heading-main {
+    color: #333;
+    font-size: 36px;
+    font-family: Mulish;
+    font-weight: 700;
+}
+
+.heading-sub {
+    color: #757575;
+    font-size: 20px;
+    font-family: Mulish;
+}
+
+.login-form {
+    gap: 5px;
+}

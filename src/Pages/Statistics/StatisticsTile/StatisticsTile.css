@@ -1,0 +1,41 @@
+.statistics-tile-layout{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    width: fit-content;
+    height: 150px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #FFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    gap: 12px;
+}
+
+.statistics-tile-icon{
+    color: #FFF;
+}
+
+.statistics-tile-background{
+    padding: 8px;
+    background-color: #FA5A7D;
+    border-radius: 50%;
+    width: fit-content;
+}
+
+.statistics-tile-value{
+    font-size: 24px;
+    font-family: Mulish;
+    font-weight: 600;
+    color: #151D48;
+}
+
+.statistics-tile-title{
+    color: #425166;
+    width: 115px;
+    /* base/Medium */
+    font-size: 16px;
+    font-family: Mulish;
+    font-weight: 600;
+    line-height: 24px;
+}
