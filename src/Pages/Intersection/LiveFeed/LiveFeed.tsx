@@ -68,11 +68,11 @@ const LiveFeed: React.FC = () => {
                     {/*show live feed here*/}
                     <div className={'live-feed-img-row'}>
                         {intersectionData.signals[0] !== undefined ?
-                        <img className={'live-feed-stream-1'} src={'http://192.168.0.100:8000/streams/intersection_1_signal_1'} alt="Streamed Image" />
+                        <img className={'live-feed-stream-1'} src={'https://fypyolo.ahris.ninja/streams/intersection_1_signal_1'} alt="Streamed Image" />
                         : null
                         }
                         {intersectionData.signals[1] !== undefined ?
-                            <img className={'live-feed-stream-1'} src={'http://192.168.0.100:8000/streams/intersection_1_signal_2'} alt="Streamed Image" />
+                            <img className={'live-feed-stream-1'} src={'https://fypyolo.ahris.ninja/streams/intersection_1_signal_2'} alt="Streamed Image" />
                             : null
                         }
                     </div>

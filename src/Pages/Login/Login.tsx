@@ -44,7 +44,7 @@ const Login: React.FC = () => {
     const postData = async (user: UserState) => {
         try {
             console.log(user);
-            const response = await fetch('http://192.168.0.100:3001/auth/user/login', {
+            const response = await fetch('https://fypexpress.ahris.ninja/auth/user/login', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

@@ -27,7 +27,7 @@ const IntersectionPage: React.FC<IntersectionProps> = () => {
 
     const getData = async () => {
         try {
-            const response = await fetch('http://192.168.0.100:3001/intersection/', {
+            const response = await fetch('https://fypexpress.ahris.ninja/intersection/', {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json',
